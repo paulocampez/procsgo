@@ -1,0 +1,10 @@
+C:\Users\Paulo Campez\Documents\GitHub\procsgo\ProCsGo\ProCsGo\ProCsGo.Entity\bin\Debug\netcoreapp3.1\ProCsGo.Entity.deps.json
+C:\Users\Paulo Campez\Documents\GitHub\procsgo\ProCsGo\ProCsGo\ProCsGo.Entity\bin\Debug\netcoreapp3.1\ProCsGo.Entity.runtimeconfig.json
+C:\Users\Paulo Campez\Documents\GitHub\procsgo\ProCsGo\ProCsGo\ProCsGo.Entity\bin\Debug\netcoreapp3.1\ProCsGo.Entity.runtimeconfig.dev.json
+C:\Users\Paulo Campez\Documents\GitHub\procsgo\ProCsGo\ProCsGo\ProCsGo.Entity\bin\Debug\netcoreapp3.1\ProCsGo.Entity.dll
+C:\Users\Paulo Campez\Documents\GitHub\procsgo\ProCsGo\ProCsGo\ProCsGo.Entity\bin\Debug\netcoreapp3.1\ProCsGo.Entity.pdb
+C:\Users\Paulo Campez\Documents\GitHub\procsgo\ProCsGo\ProCsGo\ProCsGo.Entity\obj\Debug\netcoreapp3.1\ProCsGo.Entity.csprojAssemblyReference.cache
+C:\Users\Paulo Campez\Documents\GitHub\procsgo\ProCsGo\ProCsGo\ProCsGo.Entity\obj\Debug\netcoreapp3.1\ProCsGo.Entity.AssemblyInfoInputs.cache
+C:\Users\Paulo Campez\Documents\GitHub\procsgo\ProCsGo\ProCsGo\ProCsGo.Entity\obj\Debug\netcoreapp3.1\ProCsGo.Entity.AssemblyInfo.cs
+C:\Users\Paulo Campez\Documents\GitHub\procsgo\ProCsGo\ProCsGo\ProCsGo.Entity\obj\Debug\netcoreapp3.1\ProCsGo.Entity.dll
+C:\Users\Paulo Campez\Documents\GitHub\procsgo\ProCsGo\ProCsGo\ProCsGo.Entity\obj\Debug\netcoreapp3.1\ProCsGo.Entity.pdb

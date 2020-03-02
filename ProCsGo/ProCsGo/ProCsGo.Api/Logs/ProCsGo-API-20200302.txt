@@ -1,0 +1,92 @@
+===> 2020-03-02 16:36:04.907 -03:00 [Information] Starting web host
+===> 2020-03-02 16:36:05.026 -03:00 [Information] User profile is available. Using '"C:\Users\Paulo Campez\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2020-03-02 16:36:05.047 -03:00 [Debug] Reading data from file '"C:\Users\Paulo Campez\AppData\Local\ASP.NET\DataProtection-Keys\key-196c678c-30a0-42e3-b328-1fcfd27addd1.xml"'.
+===> 2020-03-02 16:36:05.094 -03:00 [Debug] Found key {196c678c-30a0-42e3-b328-1fcfd27addd1}.
+===> 2020-03-02 16:36:05.104 -03:00 [Debug] Considering key {196c678c-30a0-42e3-b328-1fcfd27addd1} with expiration date 2020-03-12 19:33:48Z as default key.
+===> 2020-03-02 16:36:05.161 -03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-03-02 16:36:05.163 -03:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2020-03-02 16:36:05.165 -03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2020-03-02 16:36:05.168 -03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2020-03-02 16:36:05.169 -03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2020-03-02 16:36:05.171 -03:00 [Debug] Using key {196c678c-30a0-42e3-b328-1fcfd27addd1} as the default key.
+===> 2020-03-02 16:36:05.172 -03:00 [Debug] Key ring with default key {196c678c-30a0-42e3-b328-1fcfd27addd1} was loaded during application startup.
+===> 2020-03-02 16:36:05.688 -03:00 [Information] Startup::Configure
+===> 2020-03-02 16:36:05.934 -03:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2020-03-02 16:36:05.964 -03:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2020-03-02 16:36:06.156 -03:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2020-03-02 16:36:06.226 -03:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2020-03-02 16:36:07.370 -03:00 [Information] Entity Framework Core "3.1.0" initialized '"ProCsGoContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2020-03-02 16:36:07.544 -03:00 [Debug] Opening connection to database '"ProCsGo"' on server '".\SQLEXPRESS"'.
+===> 2020-03-02 16:36:22.185 -03:00 [Debug] An error occurred using the connection to database '"ProCsGo"' on server '".\SQLEXPRESS"'.
+===> 2020-03-02 16:36:22.249 -03:00 [Debug] '"ProCsGoContext"' disposed.
+===> 2020-03-02 16:36:22.252 -03:00 [Error] A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+===> 2020-03-02 16:36:22.368 -03:00 [Debug] Loaded hosting startup assembly "ProCsGo.Api"
+===> 2020-03-02 16:36:22.418 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2020-03-02 16:36:22.420 -03:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2020-03-02 16:36:22.592 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-03-02 16:36:22.698 -03:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2020-03-02 16:36:22.724 -03:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "ProCsGo.Api.Controllers.v1.InfoController" ("ProCsGo.Api").
+===> 2020-03-02 16:36:22.725 -03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2020-03-02 16:36:22.725 -03:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-03-02 16:36:22.726 -03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-03-02 16:36:22.726 -03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-03-02 16:36:22.726 -03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2020-03-02 16:36:22.727 -03:00 [Debug] Executing controller factory for controller "ProCsGo.Api.Controllers.v1.InfoController" ("ProCsGo.Api")
+===> 2020-03-02 16:36:22.728 -03:00 [Debug] Executed controller factory for controller "ProCsGo.Api.Controllers.v1.InfoController" ("ProCsGo.Api")
+===> 2020-03-02 16:36:22.738 -03:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2020-03-02 16:36:22.793 -03:00 [Information] Executed action "ProCsGo.Api.Controllers.v1.InfoController.ApiInfo (ProCsGo.Api)" in 63.0375ms
+===> 2020-03-02 16:36:22.797 -03:00 [Information] Request finished in 383.1482ms 200 text/html
+===> 2020-03-02 16:36:23.698 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/favicon.ico  
+===> 2020-03-02 16:36:23.705 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-03-02 16:36:23.730 -03:00 [Debug] Request did not match any routes
+===> 2020-03-02 16:36:23.744 -03:00 [Debug] The request path "" does not match the path filter
+===> 2020-03-02 16:36:23.745 -03:00 [Debug] Request did not match any routes
+===> 2020-03-02 16:36:23.748 -03:00 [Information] Request finished in 49.6327ms 404 
+===> 2020-03-02 16:36:39.222 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger  
+===> 2020-03-02 16:36:39.228 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-03-02 16:36:39.228 -03:00 [Debug] Request did not match any routes
+===> 2020-03-02 16:36:39.229 -03:00 [Information] Request finished in 7.1011ms 301 
+===> 2020-03-02 16:36:39.231 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/index.html  
+===> 2020-03-02 16:36:39.231 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-03-02 16:36:39.231 -03:00 [Debug] Request did not match any routes
+===> 2020-03-02 16:36:39.269 -03:00 [Information] Request finished in 38.2604ms 200 text/html;charset=utf-8
+===> 2020-03-02 16:36:39.281 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui.css  
+===> 2020-03-02 16:36:39.281 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-03-02 16:36:39.281 -03:00 [Debug] Request did not match any routes
+===> 2020-03-02 16:36:39.283 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-bundle.js  
+===> 2020-03-02 16:36:39.283 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-03-02 16:36:39.283 -03:00 [Debug] Request did not match any routes
+===> 2020-03-02 16:36:39.284 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-standalone-preset.js  
+===> 2020-03-02 16:36:39.284 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-03-02 16:36:39.284 -03:00 [Debug] Request did not match any routes
+===> 2020-03-02 16:36:39.330 -03:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+===> 2020-03-02 16:36:39.330 -03:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+===> 2020-03-02 16:36:39.331 -03:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+===> 2020-03-02 16:36:39.336 -03:00 [Information] Request finished in 51.9417ms 200 application/javascript
+===> 2020-03-02 16:36:39.336 -03:00 [Information] Request finished in 55.1537ms 200 text/css
+===> 2020-03-02 16:36:39.336 -03:00 [Information] Request finished in 52.8111ms 200 application/javascript
+===> 2020-03-02 16:36:39.481 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/v1/swagger.json  
+===> 2020-03-02 16:36:39.481 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-03-02 16:36:39.481 -03:00 [Debug] Request did not match any routes
+===> 2020-03-02 16:36:39.491 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/favicon-32x32.png  
+===> 2020-03-02 16:36:39.491 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-03-02 16:36:39.491 -03:00 [Debug] Request did not match any routes
+===> 2020-03-02 16:36:39.493 -03:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+===> 2020-03-02 16:36:39.493 -03:00 [Information] Request finished in 2.2545ms 200 image/png
+===> 2020-03-02 16:36:39.580 -03:00 [Information] Request finished in 99.1516ms 200 application/json;charset=utf-8
+===> 2020-03-02 16:37:04.121 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/Account  
+===> 2020-03-02 16:37:04.122 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2020-03-02 16:37:04.122 -03:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Account"'
+===> 2020-03-02 16:37:04.126 -03:00 [Debug] Action '"ProCsGo.Api.Controllers.AccountController.Create (ProCsGo.Api)"' with id '"4ec16139-4abd-496e-9924-65adedd6490e"' did not match the constraint '"Microsoft.AspNetCore.Mvc.ActionConstraints.HttpMethodActionConstraint"'
+===> 2020-03-02 16:37:04.129 -03:00 [Information] Route matched with "{action = \"GetAll\", controller = \"Account\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[ProCsGo.Domain.AccountViewModel] GetAll()" on controller "ProCsGo.Api.Controllers.AccountController" ("ProCsGo.Api").
+===> 2020-03-02 16:37:04.130 -03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"]
+===> 2020-03-02 16:37:04.130 -03:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2020-03-02 16:37:04.130 -03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-03-02 16:37:04.130 -03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2020-03-02 16:37:04.130 -03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2020-03-02 16:37:04.135 -03:00 [Information] Authorization failed.
+===> 2020-03-02 16:37:04.135 -03:00 [Information] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+===> 2020-03-02 16:37:04.136 -03:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+===> 2020-03-02 16:37:04.139 -03:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+===> 2020-03-02 16:37:04.139 -03:00 [Information] Executed action "ProCsGo.Api.Controllers.AccountController.GetAll (ProCsGo.Api)" in 9.1707ms
+===> 2020-03-02 16:37:04.140 -03:00 [Information] Request finished in 18.7978ms 401 
