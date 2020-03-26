@@ -1,41 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Paulo Campez\\Documents\\GitHub\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Api\\ProCsGo.Api.csproj": {}
+    "E:\\projects\\rest-api\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Api\\ProCsGo.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Paulo Campez\\Documents\\GitHub\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Api\\ProCsGo.Api.csproj": {
+    "E:\\projects\\rest-api\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Api\\ProCsGo.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Paulo Campez\\Documents\\GitHub\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Api\\ProCsGo.Api.csproj",
+        "projectUniqueName": "E:\\projects\\rest-api\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Api\\ProCsGo.Api.csproj",
         "projectName": "ProCsGo.Api",
-        "projectPath": "C:\\Users\\Paulo Campez\\Documents\\GitHub\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Api\\ProCsGo.Api.csproj",
-        "packagesPath": "C:\\Users\\Paulo Campez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Paulo Campez\\Documents\\GitHub\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Api\\obj\\",
+        "projectPath": "E:\\projects\\rest-api\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Api\\ProCsGo.Api.csproj",
+        "packagesPath": "C:\\Users\\PauloCampez\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\rest-api\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Paulo Campez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\PauloCampez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.0.124:9090/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Paulo Campez\\Documents\\GitHub\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Domain\\ProCsGo.Domain.csproj": {
-                "projectPath": "C:\\Users\\Paulo Campez\\Documents\\GitHub\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Domain\\ProCsGo.Domain.csproj"
+              "E:\\projects\\rest-api\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Domain\\ProCsGo.Domain.csproj": {
+                "projectPath": "E:\\projects\\rest-api\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Domain\\ProCsGo.Domain.csproj"
               },
-              "C:\\Users\\Paulo Campez\\Documents\\GitHub\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Entity\\ProCsGo.Entity.csproj": {
-                "projectPath": "C:\\Users\\Paulo Campez\\Documents\\GitHub\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Entity\\ProCsGo.Entity.csproj"
+              "E:\\projects\\rest-api\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Entity\\ProCsGo.Entity.csproj": {
+                "projectPath": "E:\\projects\\rest-api\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Entity\\ProCsGo.Entity.csproj"
               }
             }
           }
@@ -116,39 +117,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Paulo Campez\\Documents\\GitHub\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Domain\\ProCsGo.Domain.csproj": {
+    "E:\\projects\\rest-api\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Domain\\ProCsGo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Paulo Campez\\Documents\\GitHub\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Domain\\ProCsGo.Domain.csproj",
+        "projectUniqueName": "E:\\projects\\rest-api\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Domain\\ProCsGo.Domain.csproj",
         "projectName": "ProCsGo.Domain",
-        "projectPath": "C:\\Users\\Paulo Campez\\Documents\\GitHub\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Domain\\ProCsGo.Domain.csproj",
-        "packagesPath": "C:\\Users\\Paulo Campez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Paulo Campez\\Documents\\GitHub\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Domain\\obj\\",
+        "projectPath": "E:\\projects\\rest-api\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Domain\\ProCsGo.Domain.csproj",
+        "packagesPath": "C:\\Users\\PauloCampez\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\rest-api\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Paulo Campez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\PauloCampez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.0.124:9090/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Paulo Campez\\Documents\\GitHub\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Entity\\ProCsGo.Entity.csproj": {
-                "projectPath": "C:\\Users\\Paulo Campez\\Documents\\GitHub\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Entity\\ProCsGo.Entity.csproj"
+              "E:\\projects\\rest-api\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Entity\\ProCsGo.Entity.csproj": {
+                "projectPath": "E:\\projects\\rest-api\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Entity\\ProCsGo.Entity.csproj"
               }
             }
           }
@@ -189,32 +191,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Paulo Campez\\Documents\\GitHub\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Entity\\ProCsGo.Entity.csproj": {
+    "E:\\projects\\rest-api\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Entity\\ProCsGo.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Paulo Campez\\Documents\\GitHub\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Entity\\ProCsGo.Entity.csproj",
+        "projectUniqueName": "E:\\projects\\rest-api\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Entity\\ProCsGo.Entity.csproj",
         "projectName": "ProCsGo.Entity",
-        "projectPath": "C:\\Users\\Paulo Campez\\Documents\\GitHub\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Entity\\ProCsGo.Entity.csproj",
-        "packagesPath": "C:\\Users\\Paulo Campez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Paulo Campez\\Documents\\GitHub\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Entity\\obj\\",
+        "projectPath": "E:\\projects\\rest-api\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Entity\\ProCsGo.Entity.csproj",
+        "packagesPath": "C:\\Users\\PauloCampez\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\rest-api\\procsgo\\ProCsGo\\ProCsGo\\ProCsGo.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Paulo Campez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\PauloCampez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.0.124:9090/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -274,7 +277,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
